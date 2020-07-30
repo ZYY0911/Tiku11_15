@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_user"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="请输入用户名" />
+
+        <Button
+            android:id="@+id/bt_log"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_bt"
+            android:text="登录"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hld"
+        android:title="红绿灯管理"/>
+    <item android:id="@+id/clwz"
+        android:title="车辆违章"/>
+    <item android:id="@+id/lkcx"
+        android:title="路况查询"/>
+    <item android:id="@+id/shzs"
+        android:title="生活助手"/>
+    <item android:id="@+id/sjfx"
+        android:title="数据分析"/>
+</menu>
